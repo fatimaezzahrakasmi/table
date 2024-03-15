@@ -1,0 +1,39 @@
+:root{
+    --navy:#38419D;
+    --blue:#3887BE;
+    --teal:#52D3D8;
+    --darkNavy:#200E3A;
+}
+.table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 8px;
+}
+td,th{
+    background: var(--teal);
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+}
+th{
+    background: var(--darkNavy);
+    color: #fff;
+}
+.table .img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    flex-shrink: 0;
+   
+}
+.button{
+    background: #ff0000a9;
+    color: #fff;
+    padding: 8px 35px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    
+}
